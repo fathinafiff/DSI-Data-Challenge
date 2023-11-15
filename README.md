@@ -68,6 +68,6 @@ Through this approach, we aim to enhance operational efficiency and sales tracki
 ## 3. Results
 
 ### Product Catalog Mapper
-For detailed insights, explore our Flask app in the [Files]([https://github.com/fathinafiff](https://github.com/fathinafiff/Product-Catalog-Mapper/tree/main/Files)), allowing you to interact with our solution.
+For detailed insights, explore our Flask app in the [Files]([https://github.com/fathinafiff](https://github.com/fathinafiff/Product-Catalog-Mapper/tree/main/Files), allowing you to interact with our solution.
 
 Feel free to reach out for any inquiries or collaborations.
