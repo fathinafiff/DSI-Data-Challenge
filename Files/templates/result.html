@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask App Result</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Mapping Result</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
 <body>
-    <h1>Hasil Pemetaan</h1>
-    <p>Input Pengguna: {{ input }}</p>
+    <h1>Mapping Result</h1>
+    <p>User Input: {{ input }}</p>
     <p>Mapped SKU: {{ results.Mapped_Product_SKU }}</p>
     <p>Similarity Score: {{ results.Similarity_Score }}</p>
-    <a href="/">Kembali</a>
+    <a href="/">Go Back</a>
 </body>
 </html>

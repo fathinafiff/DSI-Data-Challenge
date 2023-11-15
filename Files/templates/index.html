@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flask App</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Catalog Mapper</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
 <body>
-    <h1>Text Mining App</h1>
+    <h1>Product Catalog Mapper</h1>
     <form action="/result" method="post">
-        <label for="product_name">Masukkan Nama Produk:</label>
+        <label for="product_name">Enter Product Name:</label>
         <input type="text" id="product_name" name="product_name" required>
         <button type="submit">Submit</button>
     </form>
