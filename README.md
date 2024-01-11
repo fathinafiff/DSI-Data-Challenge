@@ -61,7 +61,6 @@ Through this approach, we aim to enhance operational efficiency and sales tracki
 - Similarity Analysis
 - Model Development
 - New SKU Proposal
-- Dashboard Development
 
 </details>
 
